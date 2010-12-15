@@ -8,4 +8,8 @@
 /*                                                                            */
 /******************************************************************************/
 
-All css files go in here.
+Files to assist in a quick development and test of a theme before putting
+everything in WordPress files
+
+@notice		LESS (http://lesscss.org/) is used to create css files.
+			on OS X use LESS.app (http://incident57.com/less/) to compile .less files to .css
