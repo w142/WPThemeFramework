@@ -1,0 +1,116 @@
+/******************************************************************************/
+/*                                                                            */
+/*  W142 – Style Sheet                                                        */
+/*  http://www.w142.de                                                        */
+/*                                                                            */
+/*  author:	Torsten Brandt <brandt@w142.de>                                   */
+/*  web:	http://www.w142.de                                                */
+/*                                                                            */
+/******************************************************************************/
+
+/* ---------------------------------------------------------------------------*/
+/* !CSS RESET                                                                 */
+/* ---------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; background-image:none; }
+body { line-height:1; color:black; background:white; text-align:left; }
+ol, ul { list-style:none; }
+table { border-collapse:collapse; border-spacing:0; }
+caption, th, td { text-align:left; font-weight:normal; }
+blockquote:before, blockquote:after, q:before, q:after { content:""; }
+blockquote, q { quotes:"" ""; }
+a{ text-decoration:none; color:inherit; }
+/* ---------------------------------------------------------------------------*/
+/* END CSS RESET                                                              */
+/* ---------------------------------------------------------------------------*/
+
+
+
+/* ---------------------------------------------------------------------------*/
+/* !DEFINE FONTS for @font-face                                               */
+/* ---------------------------------------------------------------------------*/
+
+/* ---------------------------------------------------------------------------*/
+/* END DEFINE FONTS                                                           */
+/* ---------------------------------------------------------------------------*/
+
+
+
+/* ---------------------------------------------------------------------------*/
+/* !SET GLOBAL VARIABLES                                                      */
+/* ---------------------------------------------------------------------------*/
+
+/* ---------------------------------------------------------------------------*/
+/* END SET GLOBAL VARIABLES                                                   */
+/* ---------------------------------------------------------------------------*/
+
+
+
+/* ---------------------------------------------------------------------------*/
+/* !SET BASIC STRUCTURE                                                       */
+/* ---------------------------------------------------------------------------*/
+body{}
+/* ---------------------------------------------------------------------------*/
+/* END SET BASIC STRUCTURE                                                    */
+/* ---------------------------------------------------------------------------*/
+
+
+
+/* ---------------------------------------------------------------------------*/
+/* !TYPOGRAPHY                                                                */
+/* ---------------------------------------------------------------------------*/
+h1{}
+h2{}
+h3{}
+p{}
+ul{}
+ul li{}
+/* ---------------------------------------------------------------------------*/
+/* END TYPOGRAPHY                                                             */
+/* ---------------------------------------------------------------------------*/
+
+
+
+/* ---------------------------------------------------------------------------*/
+/* !SCREEN SIZE ADJUSTMENTS                                                   */
+/* ---------------------------------------------------------------------------*/
+
+/* iPad Portrait orientation */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait){
+	body{ width: 768px; }
+}
+
+/* iPad Landscape Orientation */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape){
+	body{ width: 1024px; }
+}
+
+/* Desktop screen < 786 */
+@media only screen and (max-width: 768px){
+}
+
+/* Desktop screen > 1024 */
+@media only screen and (min-width: 1024px){
+}
+
+/* Desktop screen > 1280 */
+@media only screen and (min-width: 1280px){
+}
+
+/* ---------------------------------------------------------------------------*/
+/* END SCREEN SIZE ADJUSTMENTS                                                */
+/* ---------------------------------------------------------------------------*/
+
+
+
+/* ---------------------------------------------------------------------------*/
+/* !UTILITY CLASSES                                                           */
+/* ---------------------------------------------------------------------------*/
+.clearfix:after{ clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/* ---------------------------------------------------------------------------*/
+/* END UTILITY CLASSES                                                        */
+/* ---------------------------------------------------------------------------*/
