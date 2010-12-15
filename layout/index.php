@@ -34,7 +34,7 @@
 		Link to a Icon used by apple devices if Page is put on homescreen
 		@see http://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html
 -->
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	</head>
 	<body>
 		
